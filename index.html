@@ -11,6 +11,8 @@
         <div class="header">
             <h1>What is your AKAN name?</h1>
         </div>
+    </header>
+    <main>
         <div>
             <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in
                  which they were born. These "day names" have further meanings concerning the soul and character of the person.
@@ -22,20 +24,22 @@
             <p>Most Ghanaians have at least one name from this system, even if they also have an English or Christian name. Notable 
                 figures with day names include Ghana's first president Kwame Nkrumah and former United Nations Secretary-General Kofi Annan.</p>          
         </div>
-    </header>
-    <main>
-            <h3>Just fill in this form and we'll tell you your noble Akan name!</h3>
-        <div>
+
+            <h3 style="text-align: center;">Just fill in this form and we'll tell you your noble Akan name!</h3>
+        <div id="form-container">
+                <img src="src/images/jess-bailey-ycTvvg1mPU4-unsplash.jpg">
+            <div class="formContent">
             <form action="" method="get" name="myform" class="form">
                 <div class="form">
                     <label for="name">Enter your name: </label>
                     <input type="text" name="name" id="name" >
                 </div>
                 <div class="form" >
-                    <label for="birthdate">Enter your birthday: </label>
+                    <label for="birthdate">Your date of birth: </label>
                     <input type="text" name="date"  id="date" onchange="dateResults()" pattern="mm/dd/yyyy" placeholder="mm/dd/yyyy" required>
                 </div>
-                <div>
+                <div class="form">
+                    <label for="gender">Select your: </label>
                     <select id="gender" onselect="genderFunc()">
                         <option >Gender</option>
                         <option id="female" value="female">Female</option>
@@ -43,19 +47,22 @@
                       </select>
                 </div>
                 <div class="form">
-                    <INPUT type="submit" name="button" value="Click" onclick="formResults()" onclick="myFunction()">
+                    <INPUT type="submit" class="button" name="button" value="Submit" onclick="formResults()" onclick="myFunction()">
+                </div>
+                <div class="popup" onclick="myFunction()">
+                    <div class="colorImage"></div>
+                    <div class="popupbox" id="popup"></div>
+                    <p class="popupdesc">There you go you Ghanaian Rockstar! Now you can use it to spice up your introductions or
+                        your social handles ;).
+                    </p>
                 </div>
             </form>
+            </div>
         </div>
     </main>
     <footer>
-        <div class="popup" onclick="myFunction()">
-            <div class="colorImage"></div>
-            <div class="popupbox" id="popup"></div>
-          </div>
-       <p>There you go you Ghanaian Rockstar! Now you can use it to spice up your introductions or
-           your social handles ;).
-       </p>
+
+
     </footer>
     <script src="src/index.js"></script>
 </body>
