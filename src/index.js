@@ -31,36 +31,32 @@ function dateResults() {
            
     }
 const birthday= dateResults()
-console.log(birthday + "yip")
-// let res= ()=> {
-//     const input = birthday;
-//     console.log(input);
-// }
-// alert(res())
 
    //FINDS MALE ARRAY
 
 const foundDayArrayMale= Object.getOwnPropertyNames(maleAkanName)
     console.log(foundDayArrayMale);
 
-    //FINDS FEMALE ARRAY
+//     //FINDS FEMALE ARRAY
 
 const foundDayArrayfemale= Object.getOwnPropertyNames(femaleAkanName)
     console.log(foundDayArrayfemale);
     
-let comparisonMale= foundDayArrayMale.find(element => element === dateResults());
-console.log(comparisonMale)
-let comparisonFemale= foundDayArrayfemale.find(element => element === dateResults());
 
-    //FUNCTION TO RETURN AKAN NAME 
+//     //FUNCTION TO RETURN AKAN NAME 
 
 let genderFunc = () =>{
-        let genderInput = document.getElementById("gender").value;
+    const comparisonMale= foundDayArrayMale.find(element => element === dateResults());
+    const comparisonFemale= foundDayArrayfemale.find(element => element === dateResults());
+
+    let genderInput = document.getElementById("gender").value;
+
         if(genderInput == document.getElementById("male").value){
             return (maleAkanName[comparisonMale])
         }else if(genderInput == document.getElementById("female").value){
             return (femaleAkanName[comparisonFemale])
-        }}
+        }
+}
         console.log(genderFunc())
     
 
