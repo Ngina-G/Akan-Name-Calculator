@@ -38,30 +38,35 @@ function dateResults() {
         return (birthday);
     }
 
+    //FUNCTION TO RETURN AKAN NAME 
 
-
-let comparisonMale= foundDayArrayMale.find(element => element === dateResults());
+function genderFunc() {
+    let comparisonMale= foundDayArrayMale.find(element => element === dateResults());
     console.log(comparisonMale);
-
-
-let comparisonFemale= foundDayArrayfemale.find(element => element === dateResults());
+    let comparisonFemale= foundDayArrayfemale.find(element => element === dateResults());
     console.log(comparisonFemale);
+    let genderInput = document.getElementById("gender").value;
+        if(genderInput == "male"){
+            return (maleAkanName[comparisonMale])
+        }else if(genderInput == "female"){
+            return (femaleAkanName[comparisonFemale])
+        }
+}
 
-        //FUNCTION TO RETURN AKAN NAME 
+ //RETURNING RESULTS FROM THE FORM
+
+let formResults= () =>{
+    
+}
+        
 
 function final(gender){
     if(gender == "male"){
-        document.write(maleAkanName[comparisonMale])
-    }else if(gender == "female"){
-        document.write(femaleAkanName[comparisonFemale])
+        document.write
     }
 }
 
 console.log(final('female'))
 
-    //GETTING THE ACTIONS FROM THE FORM
-    function formResults() {
-        let nameInput = document.getElementById('name');
-        let finaldate = 
-        document.write("The difference is " + daydiff + " days");
-    }
+   
+
