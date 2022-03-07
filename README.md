@@ -24,26 +24,40 @@ Once the user has submitted their info, a prompt appears with a personalized mes
 
 <img  align="center" src="src/images/input.png" alt="Input-form" />
 
-### BDD
+#### Requirements
+JSFiddle or JavaScript Console
+
+### Setup Instructions and Installation
+Clone this repository to a location in your file system. git clone https://github.com/Ngina-G/Ngina-G.github.io
+Open terminal command line then navigate to the root folder of the application. cd Ngina-G.github.io
+Open index.html on your Browser.
+
+### Behavior Driven Development 
 <dl>
 <dt>Displays Form For Entering Date and Gender</dt>
     <dd>INPUT: "User's Birthdate Entered"</dd>
     <dd>INPUT: "User's Gender Entered"</dd>
     <dd>OUTPUT: "Displays User's Akan Name According to Submitted Date and Gender"</dd>
+<dt>Displays an Error Message if Name Input Left Blank</dt>
+    <dd>OUTPUT: "Displays Error Message"</dd>
 <dt>Displays an Error Message if Date Input Left Blank</dt>
     <dd>OUTPUT: "Displays Error Message"</dd>
 <dt>Displays an Error Message if Gender Not Chosen</dt>
-    <dd>INPUT: ""</dd>
     <dd>OUTPUT: "Display an Error Message"</dd>
-<dt>Clears Form and Reset the Message on Click</dt>
+<dt>Clears and Resets the Form on Click</dt>
     <dd>INPUT: "Click Reset Button"</dd>
-    <dd>OUTPUT: "Clears and Resets the Form"</dd>
+    <dd>OUTPUT: "Clears and Resets the Form fields"</dd>
 </dl>
+
 ### Known bugs
 ~The landing page is not mobile responsive affecting the entire page.
 
 ~The date field prompts an error message although the user has followed the correct format.
 But the bug is in the progress of being exterminated.
+
+If you find a bug (the website couldn't handle the query and or gave undesired results), kindly open an issue here by including your search query and the expected result.
+
+If you'd like to request a new function, feel free to do so by opening an issue here. Please include sample queries and their corresponding results.
 
 ## Technologies Used
 HTML, CSS and JAVASCRIPT.
