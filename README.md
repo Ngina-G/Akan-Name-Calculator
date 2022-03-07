@@ -48,4 +48,8 @@ conatct me at Nginagitau11@outlook.com
 ### TO DO
 Include other technologies, like Bootstrap and React
 
+<<<<<<< HEAD
 <img width="20%"  src="src/images/website logo new colors.svg" alt="LOGO" />
+=======
+<img width="20%" align="center" src="src/images/website logo new colors.svg" alt="LOGO" />
+>>>>>>> c02e6f18adafe4dccf3315e23de714b3a2ed0d22
