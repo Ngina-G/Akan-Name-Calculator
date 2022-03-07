@@ -24,6 +24,21 @@ Once the user has submitted their info, a prompt appears with a personalized mes
 
 <img  align="center" src="src/images/input.png" alt="Input-form" />
 
+### BDD
+<dl>
+<dt>Displays Form For Entering Date and Gender</dt>
+    <dd>INPUT: "User's Birthdate Entered"</dd>
+    <dd>INPUT: "User's Gender Entered"</dd>
+    <dd>OUTPUT: "Displays User's Akan Name According to Submitted Date and Gender"</dd>
+<dt>Displays an Error Message if Date Input Left Blank</dt>
+    <dd>OUTPUT: "Displays Error Message"</dd>
+<dt>Displays an Error Message if Gender Not Chosen</dt>
+    <dd>INPUT: ""</dd>
+    <dd>OUTPUT: "Display an Error Message"</dd>
+<dt>Clears Form and Reset the Message on Click</dt>
+    <dd>INPUT: "Click Reset Button"</dd>
+    <dd>OUTPUT: "Clears and Resets the Form"</dd>
+</dl>
 ### Known bugs
 ~The landing page is not mobile responsive affecting the entire page.
 

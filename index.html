@@ -44,7 +44,7 @@ wght@0,100;0,200;0,400;0,600;0,900;1,700;1,900&family=Ranchers&family=Titillium+
                     <label for="name">Enter your name: </label>
                     <input type="text" 
                     name="name" 
-                    id="name" >
+                    id="name"required>
                 </div>
 
                 <div class="form" >
@@ -54,12 +54,12 @@ wght@0,100;0,200;0,400;0,600;0,900;1,700;1,900&family=Ranchers&family=Titillium+
                         onchange="dateResults()" 
                         pattern="mm/dd/yyyy" 
                         placeholder="mm/dd/yyyy" 
-                        required="">
+                        required>
                 </div>
 
                 <div class="form">
                     <label for="gender">Select your: </label>
-                        <select id="gender" onselect="genderFunc()">
+                        <select id="gender" onselect="genderFunc()" required>
                             <option >Gender</option>
                             <option id="female" value="female">Female</option>
                             <option id="male" value="male">Male</option>
