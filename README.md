@@ -1,6 +1,6 @@
 # Ngina-G.github.io
 ### Akan name Generator
-<img width="100%" height="20vh" align="center" src="src/images/eva-blue-SfPOkp6-2eA-unsplash.jpg" alt="Styling" />
+<img width="100%" height="40vh" align="center" src="src/images/eva-blue-SfPOkp6-2eA-unsplash.jpg" alt="Styling" />
 A birth-date web-app that finds the date you were born and returns the date e.g. "Saturday", and then gives back an Akan name based on the Ghanaian namimg system. this project was created as a requirement for the Moringa Prep Module. 
 <br/>
 ### By Ngina Gitau @Ngina-G
