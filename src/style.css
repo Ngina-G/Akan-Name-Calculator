@@ -25,7 +25,7 @@ h1{
 }
 
 #form-container{
-  border: 1px solid orange;
+  border: 2px solid rgba(0,208,255);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -136,4 +136,22 @@ img{
   .button:hover{
     transform: scale(1.1,1.1);
     background-color: rgba(0,0,255);
+  }
+  footer{
+    display: flex;
+    justify-content: center;
+  }
+  .fa{
+    padding: 10px;
+    margin: 8px 2px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: rgba(0,0,255);
+    color: white;
+    transition: all 0.3s;
+  }
+  .fa:hover{
+    background-color: rgb(250, 122, 2);
+    border: 1px solid white;
   }
