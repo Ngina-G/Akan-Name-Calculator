@@ -1,12 +1,12 @@
 # Ngina-G.github.io
 ### Akan name Generator
-<img width="100%" height="20%" align="center" src="src/images/eva-blue-SfPOkp6-2eA-unsplash.jpg" alt="Styling" />
+<img width="100%" height="20%" align="center" src="src/images/eva-cropped.png" alt="Styling" />
 A birth-date web-app that finds the date you were born and returns the date e.g. "Saturday", and then gives back an Akan name based on the Ghanaian namimg system. this project was created as a requirement for the Moringa Prep Module. 
 <br/>
 ### By Ngina Gitau @Ngina-G
 
  Input form
-<img  align="center" src="https://github.com/Ngina-G/Ngina-G.github.io/blob/master/src/images/no-input.png" alt="Input-form" />
+<img  align="center" src="src/images/no-input.png" alt="Input-form" />
 <br/>
 
 #### Check live demonstration <a href="https://ngina-g.github.io/"><strong>here</strong></a>
@@ -48,4 +48,4 @@ conatct me at Nginagitau11@outlook.com
 ### TO DO
 Include other technologies, like Bootstrap and React
 
-<img width="20%" align="center" src="src/images/website logo new colors.svg" alt="LOGO" />
+<img width="20%"  src="src/images/website logo new colors.svg" alt="LOGO" />
