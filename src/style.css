@@ -37,7 +37,7 @@ h1{
 }
 
 .image{
-  background-color: rgb(250, 122, 2);
+  background-image: url(/src/images/eva-blue-SfPOkp6-2eA-unsplash.jpg);
   background-size: cover;
   width: 60vw;
   padding: 2rem;

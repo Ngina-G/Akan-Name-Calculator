@@ -31,39 +31,54 @@ wght@0,100;0,200;0,400;0,600;0,900;1,700;1,900&family=Ranchers&family=Titillium+
 
             <h3 style="text-align: center;">Just fill in this form and we'll tell you your noble Akan name!</h3>
         <div id="form-container">
-            <div class="image">
-                <img src="src/images/jess-bailey-ycTvvg1mPU4-unsplash.jpg">
-            </div>
+                <div class="image">
+                    <img src="src/images/jess-bailey-ycTvvg1mPU4-unsplash.jpg">
+                </div>
+
             <div class="formContent">
             <form action="" method="get" name="myform" class="form">
+                
                 <div class="form">
                     <label for="name">Enter your name: </label>
-                    <input type="text" name="name" id="name" >
+                    <input type="text" 
+                    name="name" 
+                    id="name" >
                 </div>
+
                 <div class="form" >
                     <label for="birthdate">Your date of birth: </label>
-                    <input type="text" name="date"  id="date" onchange="dateResults()" pattern="mm/dd/yyyy" placeholder="mm/dd/yyyy" required>
+                        <input type="text" 
+                        name="date"  id="date" 
+                        onchange="dateResults()" 
+                        pattern="mm/dd/yyyy" 
+                        placeholder="mm/dd/yyyy" 
+                        required="">
                 </div>
+
                 <div class="form">
                     <label for="gender">Select your: </label>
-                    <select id="gender" onselect="genderFunc()">
-                        <option >Gender</option>
-                        <option id="female" value="female">Female</option>
-                        <option id="male" value="male">Male</option>
-                      </select>
+                        <select id="gender" onselect="genderFunc()">
+                            <option >Gender</option>
+                            <option id="female" value="female">Female</option>
+                            <option id="male" value="male">Male</option>
+                        </select>
                 </div>
+
                 <div class="form">
                     <INPUT type="submit" class="button" name="button" value="Submit" onclick="formResults()" onclick="myFunction()">
                 </div>
+
                 <div class="popup" onclick="myFunction()">
                     <div class="colorImage"></div>
                     <div class="popupbox" id="popup"></div>
-                    <p class="popupdesc">There you go you Ghanaian Rockstar! Now you can use it to spice up your introductions or
-                        your social handles ;).
-                    </p>
+                        <p class="popupdesc">There you go you Ghanaian Rockstar! Now you can use it to spice up your introductions or
+                            your social handles ;).
+                        </p>
                 </div>
+
             </form>
             </div>
+
         </div>
     </main>
     <footer>
