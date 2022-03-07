@@ -3,8 +3,8 @@ A birth-date web-app that finds the date you were born and returns the date e.g.
 <br/>
 ### By Ngina Gitau @Ngina-G
 
- Landing page
-
+ Input form
+<img width="20%" align="center" src="https://github.com/Ngina-G/Ngina-G.github.io/blob/master/src/images/input.png" alt="Input-form" />
 <br/>
 
 #### Check live demonstration <a href="https://ngina-g.github.io/"><strong>here</strong></a>
