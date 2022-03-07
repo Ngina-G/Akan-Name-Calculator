@@ -2,8 +2,17 @@ main{
     text-align: justify;
     margin-right: 10vw;
     margin-left: 10vw;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 200;
+    font-size: 100;
 }
+h1{
+  color: #fff;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 700;
+  text-shadow: 5px 5px 10px rgb(250, 122, 2);
 
+}
 .header{
     background-image: url("/src/images/eva-blue-SfPOkp6-2eA-unsplash.jpg");
     background-size: cover;
@@ -12,25 +21,40 @@ main{
     height: 40vh;
     padding: 0.1%;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 2.5rem;
 }
 
 #form-container{
   border: 1px solid orange;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   text-align: justify;
+  margin: 1%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px 10px rgb(250, 122, 2);
+  width: 80vw;
 }
 
+.image{
+  background-color: rgb(250, 122, 2);
+  background-size: cover;
+  width: 60vw;
+  padding: 2rem;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  align-items: center;
+  margin-left: 1rem;
+}
 img{
-  width: 40%;
-  
+  width: 33vw;
+  margin-left: 1em;
 }
 .form{
-  padding: 1em;
-  margin-right: 1%;
-  display: inline-block;
+  padding: .5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   
 }
 .formContent{
@@ -50,7 +74,7 @@ img{
   /* The actual popup */
   .popup .popupbox {
     visibility: hidden;
-    width: 40vw;
+    width: 30vw;
     height: 10vh;
     background-color: rgb(250, 122, 2);
     color: #fff;
@@ -60,8 +84,9 @@ img{
     position: relative;
     z-index: 1;
     top: 125%;
-    margin: 5%;
+    margin: 12%;
     margin-top: 2rem;
+    margin-bottom: -1rem;
 }
   
   /* Popup arrow */
@@ -91,4 +116,24 @@ img{
   @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
+  }
+  .popupdesc{
+    margin: 10%;
+    text-align: center;
+    margin-bottom: .5rem;
+  }
+  .button{
+    background-color: rgba(0,208,255);
+    color: #fff;
+    border: 1px solid white;
+    font-size: .8rem;
+    padding: 1px;
+    width: 5em;
+    height: 1.5rem;
+    border-radius: 9%;
+    transition: 1s;
+  }
+  .button:hover{
+    transform: scale(1.1,1.1);
+    background-color: rgba(0,0,255);
   }
