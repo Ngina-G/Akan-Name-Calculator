@@ -49,7 +49,7 @@ wght@0,100;0,200;0,400;0,600;0,900;1,700;1,900&family=Ranchers&family=Titillium+
 
                 <div class="form" >
                     <label for="birthdate">Your date of birth: </label>
-                        <input type="text" 
+                        <input type="date" 
                         name="date"  id="date" 
                         onchange="dateResults()" 
                         pattern="mm/dd/yyyy" 
@@ -60,16 +60,16 @@ wght@0,100;0,200;0,400;0,600;0,900;1,700;1,900&family=Ranchers&family=Titillium+
                 <div class="form">
                     <label for="gender">Select your: </label>
                         <select id="gender" onselect="genderFunc()" required>
-                            <option >Gender</option>
+                            <option id="genderOption" value="gender">Select Gender</option>
                             <option id="female" value="female">Female</option>
                             <option id="male" value="male">Male</option>
                         </select>
                 </div>
 
                 <div class="form" style="display: inline;">
-                    <INPUT type="submit" class="button" name="button" value="Submit" onclick="formResults()" onclick="myFunction()">
+                    <INPUT type="submit" class="button" name="button" value="Submit" id="btn" onclick="formResults()" onclick="myFunction()">
 
-                    <input type="reset" value="reset" class="button" style="background-color: rgb(163, 155, 155);">
+                    <input type="reset" value="reset" class="button" id="reset" style="background-color: rgb(163, 155, 155);">
                 </div>
 
                 <div class="popup" onclick="myFunction()">
