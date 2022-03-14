@@ -87,16 +87,8 @@ let genderFunc = () =>{
         return false;
     }else{
         popup.classList.toggle("show");
-        document.getElementById("popup").innerHTML = 
+        popup.innerHTML = 
             "Great! " + document.getElementById("name").value + ", Your Akan name is, " + genderFunc()
             + " Which means you were born on a " + dateResults();
     }
-    const reset= () =>{
-        // const resbtn = document.querySelector('#reset')
-        return popup.classList.toggle("none");
-
-    }
 }
-
-        
-
